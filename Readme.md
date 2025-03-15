@@ -25,15 +25,14 @@ happy artist:Vishal-Shekhar
 
 These elements are combined into a search query sent to Spotify’s search API, ensuring personalized recommendations that align with the user's current mood and musical preferences.
 
+# Setting Up the repo:
+
+
 ### **Step 1: Setting Up Ollama with DeepSeek Model**
 
 Follow these steps to set up **Ollama** with the **DeepSeek 5B model** and ensure your **Spotify Developer app** is configured correctly.
 
-
-
 ------
-# Setting Up the repo:
-
 ## **1. Pull the Deepseek-r1:1.5b Model**
 To download the **Deepseek-r1:1.5b** model, run the following command in your terminal:
 
