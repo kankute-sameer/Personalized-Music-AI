@@ -8,7 +8,7 @@ Follow these steps to set up **Ollama** with the **DeepSeek 5B model** and ensur
 To download the **Deepseek-r1:1.5b** model, run the following command in your terminal:
 
 ```bash
-ollama pull deepseek/5b
+ollama pull deepseek-r1:1.5b
 ```
 
 - This process **downloads the model files (~1.5GB)**.
