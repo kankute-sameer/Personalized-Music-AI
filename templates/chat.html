@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Chat</title>
+    <link rel="stylesheet" href="{{ request.url_for('static', path='style.css') }}">
+</head>
+<body class="chat-page">
+    <div class="sidebar">
+        <div class="sidebar-top">
+            <div class="sidebar-header">
+                <h3>Spotify Chat</h3>
+            </div>
+            <div class="user-info">
+                <span>Logged in as: {{ display_name }}</span>
+            </div>
+        </div>
+        
+        <div class="sidebar-middle">
+            <div class="new-chat">
+                <button id="new-chat-btn">+ New chat</button>
+            </div>
+            <div class="chat-history">
+                <!-- Chat history will appear here -->
+            </div>
+        </div>
+        
+        <div class="sidebar-footer">
+            <a href="{{ request.url_for('logout') }}" class="logout-btn">Log out</a>
+        </div>
+    </div>
+    
+    <div class="chat-container">
+        <div class="chat-messages" id="chat-messages">
+            <!-- Initial greeting message -->
+            <div class="message assistant">
+                <div class="message-content">
+                    <p>Hello, {{ display_name }}! How can I help you with your Spotify experience today?</p>
+                </div>
+            </div>
+            <!-- Messages will appear here -->
+            <!-- Music recommendations will be dynamically inserted -->
+        </div>
+        
+        <div class="chat-input-container">
+            <form id="message-form">
+                <textarea id="message-input" placeholder="Type a message..." rows="1"></textarea>
+                <button type="submit" id="send-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                        <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path>
+                    </svg>
+                </button>
+            </form>
+            <div class="disclaimer">
+                Spotify Chat may produce inaccurate information about people, places, or facts.
+            </div>
+        </div>
+    </div>
+    
+    <script src="{{ request.url_for('static', path='script.js') }}"></script>
+</body>
+</html> 
