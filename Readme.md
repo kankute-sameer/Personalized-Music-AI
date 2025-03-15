@@ -1,6 +1,15 @@
+# **Demo : ** Proof of Conecept
+To demonstrate the feasibility of my proposed solution, I have developed a proof of concept (PoC) and created a demo video showcasing the initial implementation. This highlights my understanding of the project requirements and my ability to contribute effectively
+
+
+https://github.com/user-attachments/assets/622fcba6-4760-49a0-9826-d26d8207464a
+
+
 ### **Step 1: Setting Up Ollama with DeepSeek Model**
 
 Follow these steps to set up **Ollama** with the **DeepSeek 5B model** and ensure your **Spotify Developer app** is configured correctly.
+
+
 
 ---
 
