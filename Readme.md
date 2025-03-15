@@ -4,8 +4,8 @@ Follow these steps to set up **Ollama** with the **DeepSeek 5B model** and ensur
 
 ---
 
-## **1. Pull the DeepSeek 5B Model**
-To download the **DeepSeek 5B** model, run the following command in your terminal:
+## **1. Pull the Deepseek-r1:1.5b Model**
+To download the **Deepseek-r1:1.5b** model, run the following command in your terminal:
 
 ```bash
 ollama pull deepseek/5b
