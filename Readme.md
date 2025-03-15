@@ -1,4 +1,4 @@
-### ** Step 1: **Setting Up Ollama with DeepSeek Model**
+### **Step 1: Setting Up Ollama with DeepSeek Model**
 
 Follow these steps to set up **Ollama** with the **DeepSeek 5B model** and ensure your **Spotify Developer app** is configured correctly.
 
