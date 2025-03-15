@@ -1,5 +1,5 @@
 # **Demo** : Proof of Conecept
-To demonstrate the feasibility of my proposed solution, I have developed a proof of concept (PoC) and created a demo video showcasing the initial implementation. This highlights my understanding of the project requirements and my ability to contribute effectively
+To demonstrate the feasibility of my initial solution, I have developed a proof of concept (PoC) and created a demo video showcasing the initial implementation. This highlights my understanding of the project requirements and my ability to contribute effectively. The final approach which will be in proposal will be more sophisticated than this.
 
 
 https://github.com/user-attachments/assets/622fcba6-4760-49a0-9826-d26d8207464a
